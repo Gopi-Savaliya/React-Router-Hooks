@@ -1,10 +1,10 @@
 import './App.css';
-import { UseLocationHook } from './useLocationHook';
+import { UseParamsHook } from './useParamsHook';
 
 function App() {
   return (
     <div className="App">
-      <UseLocationHook />
+      <UseParamsHook />
     </div>
   );
 }
