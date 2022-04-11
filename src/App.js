@@ -1,13 +1,10 @@
-import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import { UseHistoryHook } from './useHistoryHook';
+import { UseLocationHook } from './useLocationHook';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <UseHistoryHook />
-      </BrowserRouter>
+      <UseLocationHook />
     </div>
   );
 }
